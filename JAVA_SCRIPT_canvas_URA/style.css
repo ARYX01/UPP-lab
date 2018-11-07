@@ -1,0 +1,75 @@
+html{  
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+	background: url("https://bloomingpixelcreatives.com/wp-content/uploads/2017/10/bigstock-Blue-And-Pink-Smoke-Backgroun-199900807.jpg") no-repeat center center fixed;
+	background-color: black;
+	background-size: cover;
+}
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+#canvas {
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding:10px;
+	width: 300px;
+	background: linear-gradient(black,navy,blue,#400080,#800080,#800000,#804000,#608000,#008000,#008060,#006080,#2a2a2a);
+	background-size: 1800% 1800%;
+	-webkit-animation: rainbow 10s ease infinite;
+	animation: rainbow 18s ease infinite;
+}
+table {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  border-collapse:collapse;
+  border:1px solid #7f7f7f;
+}
+td {
+  color:white;
+  background:#2a2a2a;
+  border:1.5px solid black;
+  width:50px;height:50px;
+  text-align:center;
+  cursor:pointer;
+}
+table td:hover{
+  background:#9C9898;
+  color:black;
+}
+
+/*///https://www.glasshalo.co.uk/wp-content/uploads/2014/09/Blue-smoke-background.jpg/*/
+
+/*tr:nth-child(odd) {
+  background-color: #dddddd;
+}*/
+#gumbi{
+  height: 40px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding:10px;
+  width: 500px;
+  background: linear-gradient(black,navy,blue,#400080,#800080,#800000,#804000,#608000,#008000,#008060,#006080,#2a2a2a);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 10s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+button{
+  width: 21%;
+  height: 100%;
+}
+#textarea{
+  height: 20px;
+}
